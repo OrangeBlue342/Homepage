@@ -22,6 +22,12 @@ const onChangeBackgroundClick = () => {
 
 onChangeBackgroundClick();
 
+const init = () => {
+    const body = document.querySelector(".background"); 
+    body.classList.toggle("darkbackground");
+}
+init();
+
 przycisk.addEventListener("click", () => {
     header.remove();
 })
