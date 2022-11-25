@@ -1,4 +1,9 @@
-console.log("Cześć!")
+function welcome() {
+    console.log("Cześć!")
+}
+
+welcome;
+
 let przycisk = document.querySelector(".przycisk")
 let naglowek = document.querySelector(".naglowek")
 let body = document.querySelector(".background")
