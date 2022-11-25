@@ -21,6 +21,7 @@
         }
         .darkbackground {
             background-color: rgb(0, 109, 7);
+            text-color: white;
         max-width: 1000px;
         text-align: center;
         }
