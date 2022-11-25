@@ -6,6 +6,10 @@
             box-sizing: inherit;
         }
 
+        .container {
+            display: flex;
+        }
+
         .background {
             text-align: center;
             margin:auto;
